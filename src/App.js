@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Home from "./components/Home";
-import Logueo from "./components/Logueo";
-
+import Home from "./controllers/Home";
+import Logueo from "./controllers/Logueo";
+import mediaModelo from "./model/Media";
 import firebaseApp from "./credenciales";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 const auth = getAuth(firebaseApp);
